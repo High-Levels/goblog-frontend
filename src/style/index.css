@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.card-body h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+}
+/* navbar */
+ /* Set button search width to 100% on mobile devices */
+ @media (max-width: 576px) {
+  .btn {
+    width: 20%;
+  }
+}
+/* Hide input search on mobile devices */
+@media (max-width: 769.96px) {
+  .d-lg-block {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .btn-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-mobile {
+    display: block;
+  }
+}
